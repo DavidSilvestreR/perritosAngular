@@ -1,0 +1,23 @@
+{
+  "name": "primer proyecto",
+  "authors": [
+    "David Silvestre <david.silvestre.reynoso@gmail.com>"
+  ],
+  "description": "angular",
+  "main": "",
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}

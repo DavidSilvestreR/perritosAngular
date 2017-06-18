@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="miPrimeraWebapp">
+<head>
+	<meta charset="UTF-8">
+	<title>Perritos</title>
+	<!-- build:css styles/main.min.css-->
+	<link rel="stylesheet" href="styles/myStyles.css">
+    <!-- endbuild -->
+</head>
+<body ng-controller="controladorBasico">
+   <!--<p ng_repeat="alguien in personas">{{alguien}}</p> -->
+   <div class="container"  ng_repeat="perrito in superDogs">
+       <img ng-src="imagenes/{{perrito.foto}}" >
+       <h2>Hola mi nombre es {{perrito.nombre}}</h2>
+       <h3>Tengo {{perrito.edad}} años</h3>
+   </div>
+    <script src="scripts/angular.min.js"></script>
+    <!-- build:js scripts/main.min.js -->
+      <script src="scripts/myApp.js"></script>
+    <!-- endbuild -->
+
+</body>
+</html>

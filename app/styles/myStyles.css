@@ -1,0 +1,21 @@
+h1 {
+  color: violet;
+}
+img{
+	width: 50%;
+	margin: auto;
+	border-radius: 20px;
+	box-shadow:  1px 1px 5px #000;
+}
+h2 {
+  color: green;
+  text-align: center;
+}
+.container{
+	text-align: center;
+}
+body{
+	background: #EFEFEF;
+}
+
+
